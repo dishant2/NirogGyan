@@ -1,0 +1,58 @@
+.header {
+  background-color: #2E7D32;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font: 1em sans-serif;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #C8E6C9;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* -------- Responsive Styles -------- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}

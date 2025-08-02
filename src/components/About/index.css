@@ -1,0 +1,9 @@
+.about-section {
+  padding: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.about-section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
