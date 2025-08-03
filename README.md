@@ -22,7 +22,7 @@ Find verified doctors, book appointments instantly, and manage your health recor
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/niroggyan.git
+git clone https://github.com/dishant2/niroggyan.git
 cd niroggyan/my-app
 npm install
 ```
